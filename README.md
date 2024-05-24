@@ -1,8 +1,8 @@
-# AbsenSIKaryawan
+# Absensi
 Absensi dan Sistem Informasi Karyawan berbasis web
 
 
--> Absen Karyawan - SIKaryawan
+-> Absen Karyawan -
 
 Absen Karyawan - Sistem informasi karyawan merupakan aplikasi absensi berbasis web, yang dibuat untuk memenuhi kebutuhan perusahaan atau instansi yang membutuhkan aplikasi absensi karyawan.
 
@@ -16,12 +16,10 @@ Absen Karyawan - Sistem informasi karyawan merupakan aplikasi absensi berbasis w
   2. password = admin
   
 -> Login default karyawan : 
-  1. username = user
-  2. password = user
+  1. username = atar
+  2. password = janitra
   
 -> Catatan(PENTING) :
-    <i style="color: yellow;">Sebelum mengimport database, pastikan anda membuat database sesuai dengan nama database yang ada di dalam folder db, yaitu 'karyawansi'</i>
+    <i style="color: yellow;">Sebelum mengimport database, pastikan anda membuat database sesuai dengan nama database yang ada di dalam folder database, yaitu 'database'</i>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Aplikasi ini adalah aplikasi open source, anda bisa menggunakan aplikasi saya ini untuk apapun. 
-Tetapi jika anda berkenan, silahkan donasi :
-1. Paypal = https://paypal.me/Zeppy19?locale.x=id_ID
+Aplikasi ini dibuat oleh kami kelompok Atar dari XI RPL
