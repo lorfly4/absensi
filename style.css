@@ -1,0 +1,188 @@
+  body{
+    background-image: url('picture/office.jpeg');
+    background-size: cover;
+  }
+
+  header {
+    background: darkblue;
+    color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+*,html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    scroll-behavior: smooth;
+}
+
+li a {
+    transition: all .5s ease 0s;
+    display: inline-block;
+}
+
+li a:hover {
+    color: #ff6a3d;
+    transform: rotate(2deg);
+}
+
+.btn-cta {
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: #ff6a3d;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+
+.logo:hover {
+    color: #ff6a3d;
+    transform: rotate(2deg);
+}
+
+nav ul {
+    display: flex;
+    padding: 20px;
+}    
+
+a {
+   text-decoration: none;
+   color: #eaeaea;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 28px;
+    font-weight: border;
+}
+
+.tulisan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.teks{
+    font-style: bold;
+   font-family: 'Segoe UI';
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   position: absolute;
+   top: 55%;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.teks span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.teks span::before{
+    background-color: #eaeaea;
+    animation: teks 5s steps(36) forwards;
+}
+
+@-webkit-keyframes teks {
+    to{
+        left: 100%;
+    }
+}
+
+.parallax {
+    background-image: url('https://cdn.discordapp.com/attachments/989981837977878559/1014403142496030720/unknown.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: clip;
+    background-size: cover;
+    height: 100vh;
+}
+
+.tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    color: #eaeaea;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+.mt-10 {
+    margin-top: 20px;
+}
+
+.hobi {
+  
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.card-items {
+  width: 25%;
+  background: #f7f7f7;
+  color: #222;
+  padding: 40px;
+}
