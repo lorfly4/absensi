@@ -18,8 +18,9 @@ Absen Karyawan - Sistem informasi karyawan merupakan aplikasi absensi berbasis w
 -> Login default karyawan : 
   1. username = atar
   2. password = janitra
+  <h4>untuk data username yang lengkap bisa di cek melalui databsae di tb_karyawan</h4>
   
 -> Catatan(PENTING) :
-    <i style="color: yellow;">Sebelum mengimport database, pastikan anda membuat database sesuai dengan nama database yang ada di dalam folder database, yaitu 'database'</i>
+    <i style="color: yellow;">Sebelum mengimport database, pastikan anda membuat database sesuai dengan nama database yang ada di dalam folder database, yaitu 'absensi'</i>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Aplikasi ini dibuat oleh kami kelompok Atar dari XI RPL
