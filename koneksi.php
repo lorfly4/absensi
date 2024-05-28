@@ -1,7 +1,7 @@
 <?php 
-$koneksi = mysqli_connect("localhost", "root", "", "karyawansi");
+$koneksi = mysqli_connect("localhost", "root", "", "absensi");
 
-if (mysqli_connect_errno()) {
-	echo "koneksi gagal " . mysql_connect_error();
+if (!$koneksi) {
+	echo "koneksi gagal ";
 }
  ?>
